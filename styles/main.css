@@ -463,10 +463,14 @@ height: 3px;
 background-color: #ff2d2d;
 }
 
-.touch,.left-touch{
-  margin-left:164px;
+.touch{
+  width:90%;
+  margin:0 auto;
 }
-
+.left-touch{
+  width:732px;
+  margin:0 auto;
+}
 .left-touch form{
   display:flex;
   justify-content: space-between;
@@ -593,4 +597,259 @@ text-align: left;
 }
 .right-footer li{
   margin-left:18px;
+}
+
+
+
+@media(max-width:1360px){
+  .left-touch{
+    width:100%;
+  }
+  .left-touch input{
+    width:45%;
+  }
+  .right-touch input{
+    width:45%;
+  }
+  .left-touch textarea{
+    width:100%;
+  }
+  .left-touch button{
+    width:100%;
+  }
+  .header-bottom-right-content{
+    width:90%;
+    margin-left:auto;
+  }
+  .own-container{
+    width:90%;
+  }
+  .design{
+    width:100%;
+    height:600px;
+  }
+  .design h3{
+    line-height: 2em;
+  }
+  .our-team-block{
+    width:100%;
+  }
+  .works-content{
+    width:45%;
+  }
+}
+
+@media(max-width:991px){
+  .header-bottom-left h3{
+    text-align:center;
+  }
+  .header-bottom-left p{
+    width:70%;
+    margin:0 auto;
+    margin-top:2em;
+  }
+  .header-bottom-left button{
+    display:block;
+    margin:0 auto;
+    margin-top:2em;
+  }
+  .header-bottom-right-content{
+    width:60%;
+    margin:0 auto;
+  }
+  .left-provide{
+    width:100%;
+  }
+  .left-provide p{
+    width:80%;
+    margin:0 auto;
+    margin-top:2em;
+    text-align:center;
+    line-height:30px;
+  }
+  .left-provide button{
+    display: block;
+    margin:0 auto;
+    margin-top:2em;
+  }
+  .works{
+    margin-top:5em;
+  }
+  .m1{
+    margin-top:80px !important;
+  }
+  .feauture ul{
+    width:100%;
+  }
+  .feauture-content-item{
+    width:50%;
+  }
+  .our-team h3{
+    text-align:center;
+    margin-top:2em;
+  }
+
+  .our-team p{
+    width:80%;
+    margin:0 auto;
+    margin-top:2em;
+    text-align:center;
+  }
+  hr{
+    width:100%;
+    margin:0 auto;
+  }
+  .our-team-block{
+    width: 321px;
+  height: 458px;
+  margin:0 auto;
+  }
+  .ot-info ul{
+    width:80%;
+    margin:0 auto;
+    margin-top:2em;
+    justify-content: center;
+  }
+  .ot-info li{
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+  .left-touch form{
+    flex-direction: column;
+    align-items: center;
+  }
+  .left-touch input{
+    margin-top:2em;
+  }
+  .left-touch textarea{
+    width:60%;
+    display: block;
+    margin:0 auto;
+    margin-top:2em;
+  }
+  .left-touch button{
+    width:50%;
+    display: block;
+    margin:0 auto;
+    margin-top:2em;
+  }
+  .contact{
+    width:50%;
+    margin:0 auto;
+    margin-top:4em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-info{
+    margin:0px;
+  }
+  footer{
+    height:auto;
+  }
+}
+
+@media(max-width:768px){
+  .own-container{
+    width:100%;
+  }
+  .works{
+    flex-direction: column;
+    align-items:center;
+  }
+  .works-content{
+    text-align:center;
+  }
+  .works-content h4{
+    text-align:center;
+  }
+  .works-content p{
+    text-align:center;
+  }
+  .left-provide h3{
+    width:80%;
+    margin:0 auto;
+    text-align:center;
+  }
+  .feauture ul{
+    flex-direction: column;
+    align-items:center;
+  }
+  .feauture li{
+    text-align:center;
+    margin-top:1em;
+  }
+  .our-team-block2{
+    width:50%;
+    margin:0 auto;
+    margin-top:2em;
+  }
+  .design h3{
+    padding-top:40px;
+  }
+  .touch h3{
+    text-align:center;
+  }
+  .touch p{
+    width:80%;
+    margin:0 auto;
+    margin-top:2em;
+  }
+  .col-12{
+    padding:0px !important;
+  }
+  .left-footer{
+    justify-content: center;
+  }
+  .right-footer ul{
+    justify-content: center;
+  }
+  .contact{
+    width:80%;
+  }
+}
+
+
+@media(max-width:600px){
+  .header-bottom-left h3{
+    font-size:40px;
+  }
+  .design h3{
+    font-size:30px;
+  }
+}
+
+@media(max-width:400px){
+  .feauture-content-item{
+    width:90%;
+  }
+  .works-content{
+    width:90%;
+  }
+  .header-bottom-right-content{
+    width:90%;
+  }
+  .header-bottom-left p{
+    text-align:center;
+  }
+  .header-top li{
+    padding-left:5px;
+  }
+  .ot-info li{
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .our-team-block2{
+    width:90%;
+  }
+  .left-touch input{
+    width:90%;
+  }
+  .left-touch textarea{
+    width:90%;
+  }
+  .contact{
+    width:90%;
+  }
 }
